@@ -1,0 +1,35 @@
+GameName = "Gay Game" 
+
+tab1name = "Main" 
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))() 
+
+local GameName = Library:NewWindow(GameName) 
+
+local Tab1 = GameName:NewSection(tab1name) 
+
+Tab1:CreateToggle("Auto Money", function(value)
+_G.name = value
+while _G.name == true do
+loadstring(game:HttpGet("https://pastebin.com/raw/cSsb4bEG"))()
+wait(5) 
+end
+end) 
+
+Tab1:CreateButton("Anti Afk", function(value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+end) 
+
+Tab1:CreateButton("Server Hop", function(value)
+loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+end)
+local Tab2 = GameName:NewSection("Misc") 
+
+Tab2:CreateButton("Claim UGC", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(15.3770075, 39.3170242, 53.4557533, -0.72515291, 5.36989297e-09, -0.688587904, -4.748766e-08, 1, 5.7807739e-08, 0.688587904, 7.46188746e-08, -0.72515291))
+end) 
+
+Tab2:CreateButton("Buy/Close", function(value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX/OneCreatorX/main/Scripts/UGCfree/Ning/AutoClaimUGC.lua"))()
+end)
+local Tab2 = GameName:NewSection("justrinn")
